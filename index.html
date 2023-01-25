@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Seller Admin Page</title>
+    </head>
+    <body>
+        <form id="product-form">
+            <label>Product ID:</label>
+            <input type="text" id="product-id" name="product-id">
+            <label>Selling Price:</label>
+            <input type="text" id="selling-price" name="selling-price">
+            <label>Product Name:</label>
+            <input type="text" id="product-name" name="product-name">
+            <label>Category:</label>
+            <select id="category" name="category">
+              <option value="Electronics">Electronics</option>
+              <option value="Fashion">Fashion</option>
+              <option value="Home">Home</option>
+              <option value="Outdoors">Outdoors</option>
+            </select>
+            <button type="button" id="save-product">Add Product</button>
+          </form>
+          <div id="product-list"></div>
+          
+        <script src="node.js"></script>
+    </body>
+</html>
